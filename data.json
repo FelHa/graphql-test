@@ -1,0 +1,38 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "Foo",
+      "email": "foo@gmail.com",
+      "age": 35
+    },
+    {
+      "id": "2",
+      "name": "Bar",
+      "email": "bar@gmail.com",
+      "age": 22
+    },
+    {
+      "id": "3",
+      "name": "Bas",
+      "email": "bas@gmail.com",
+      "age": 66,
+      "args": {
+        "id": "3",
+        "age": 65
+      }
+    },
+    {
+      "id": "4",
+      "name": "Foba",
+      "email": "foba@gmail.com",
+      "age": 29
+    },
+    {
+      "id": "5",
+      "name": "Bafo",
+      "email": "bafo@gmail.com",
+      "age": 66
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "Testbackend für GraphQL",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelHa/graphql-test.git"
+  },
+  "keywords": [],
+  "author": "Felix Haußer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelHa/graphql-test/issues"
+  },
+  "homepage": "https://github.com/FelHa/graphql-test#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
